@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolution {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://alphacephei.com/maven/' }
+    }
+}
+
+rootProject.name = "Mirza"
+include ':app'
